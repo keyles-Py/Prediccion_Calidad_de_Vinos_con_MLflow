@@ -6,11 +6,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score
 
-# --- (Suponemos que X, y se cargan aquí) ---
-# ... Carga de datos y train_test_split ...
-X = np.random.rand(200, 10) 
-y = np.random.randint(0, 2, 200) 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
 
 def train_logistic_regression(C, solver, max_iter):
     with mlflow.start_run(run_name=f"LR_C{C}_iter{max_iter}_{solver}"):
