@@ -1,0 +1,7 @@
+Sube el archivo CSV,output,timestamp
+,,2025-11-09 23:05:06.453178
+,,2025-11-09 23:06:20.285917
+,,2025-11-09 23:06:22.119274
+.gradio\flagged\Sube el archivo CSV\d6dcc0f6febcbc2b4473\winequality-white.csv,Error: El DataFrame está vacío o no se ha cargado correctamente.,2025-11-09 23:07:01.093999
+.gradio\flagged\Sube el archivo CSV\0249f8313b33b5b06ea4\winequality-white.csv,Error: El DataFrame está vacío o no se ha cargado correctamente.,2025-11-09 23:07:07.502619
+.gradio\flagged\Sube el archivo CSV\6d1640056d4f60f195b7\winequality-white.csv,Error: No se encontró el archivo del modelo en la ruta: modelo_logreg.pkl,2025-11-09 23:10:10.903729
