@@ -1,0 +1,15 @@
+# python_env.yaml
+name: mlflow-project-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13.3
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn=1.3
+  - pip:
+    - mlflow>=2.8.0
+    - tensorflow>=2.15.0 
+    - ipython
