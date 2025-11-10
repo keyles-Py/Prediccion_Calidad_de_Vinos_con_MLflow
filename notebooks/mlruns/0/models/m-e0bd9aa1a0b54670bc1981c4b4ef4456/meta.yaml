@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/galof/Music/VS_CODES/PYTHON/VINOS/Prediccion_Calidad_de_Vinos_con_MLflow/notebooks/mlruns/0/models/m-e0bd9aa1a0b54670bc1981c4b4ef4456/artifacts
+creation_timestamp: 1762808579465
+experiment_id: '0'
+last_updated_timestamp: 1762808587663
+model_id: m-e0bd9aa1a0b54670bc1981c4b4ef4456
+model_type: null
+name: model
+source_run_id: a981f0509161401bbd08ea14880f9b4d
+status: 2
+status_message: null

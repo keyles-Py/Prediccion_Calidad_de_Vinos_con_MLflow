@@ -1,0 +1,15 @@
+creation_timestamp: 1762806504785
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1762806504785
+model_id: m-bfae5ae59f484fd794a802f3d4e75a8a
+name: winequality_lr
+run_id: 927a371372974284bdedf085ead5211e
+run_link: null
+source: models:/m-bfae5ae59f484fd794a802f3d4e75a8a
+status: READY
+status_message: null
+storage_location: file:///c:/Users/galof/Music/VS_CODES/PYTHON/VINOS/Prediccion_Calidad_de_Vinos_con_MLflow/notebooks/mlruns/0/models/m-bfae5ae59f484fd794a802f3d4e75a8a/artifacts
+user_id: null
+version: 2

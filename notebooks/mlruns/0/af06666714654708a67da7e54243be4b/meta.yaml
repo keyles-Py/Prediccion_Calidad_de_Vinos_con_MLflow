@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/galof/Music/VS_CODES/PYTHON/VINOS/Prediccion_Calidad_de_Vinos_con_MLflow/notebooks/mlruns/0/af06666714654708a67da7e54243be4b/artifacts
+end_time: 1762808593736
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af06666714654708a67da7e54243be4b
+run_name: minmax+linreg
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762808587862
+status: 3
+tags: []
+user_id: galof
