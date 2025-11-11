@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/794265579005744112/d59f8d5807ea47f1b9c85e294de970e5/artifacts
+end_time: 1762891569006
+entry_point_name: ''
+experiment_id: '794265579005744112'
+lifecycle_stage: active
+run_id: d59f8d5807ea47f1b9c85e294de970e5
+run_name: dashing-pug-628
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762891568726
+status: 3
+tags: []
+user_id: keyner

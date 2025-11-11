@@ -4,9 +4,9 @@ name: MLops_Final_Project
 conda_env: python_env.yaml
 
 entry_points:
-  train_lr:
-    command: "python train.py --model LR --C {C} --solver {solver} --max_iter {max_iter}"
+  main:
+    command: "python train.py --n_estimators {n_estimators} --max_depth {max_depth} --random_state {random_state}"
     parameters:
-      C: {type: float, default: 1.0}
-      solver: {type: str, default: "liblinear"}
-      max_iter: {type: int, default: 100}
+      n_estimators: {type: int, default: 100}
+      max_depth: {type: int, default: 10}
+      random_state: {type: int, default: 42}

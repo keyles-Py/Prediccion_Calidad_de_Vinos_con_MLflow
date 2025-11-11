@@ -1,0 +1,1 @@
+fixed acidity: 7.00, volatile acidity: 0.27, citric acid: 0.36, residual sugar: 20.70, chlorides: 0.04, free sulfur dioxide: 45.00, total sulfur dioxide: 170.00, density: 1.00, pH: 3.00, sulphates: 0.45, alcohol: 8.80, quality: 6.00

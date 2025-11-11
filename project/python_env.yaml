@@ -13,3 +13,5 @@ dependencies:
     - mlflow>=2.8.0
     - tensorflow>=2.15.0 
     - ipython
+    - gradio==4.20.0
+    - openai  

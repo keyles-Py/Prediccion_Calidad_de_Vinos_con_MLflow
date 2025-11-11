@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/keyner/Desktop/Keyner/C%C3%B3digos/MLops/MLops%20final/gradio_app/mlruns/0/e4a47ed0581c4be6be6f9ba1561584f9/artifacts
+end_time: 1762890878808
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e4a47ed0581c4be6be6f9ba1561584f9
+run_name: bemused-lynx-990
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762890878629
+status: 3
+tags: []
+user_id: keyner

@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/794265579005744112
+creation_time: 1762891537231
+experiment_id: '794265579005744112'
+last_update_time: 1762891537231
+lifecycle_stage: active
+name: winequality-linear-regression

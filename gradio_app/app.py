@@ -8,6 +8,9 @@ gemini_api_key = "AIzaSyDSJRhRW_0VlPpukX3Qlqbjz3YMC8gu0z8"
 
 client = genai.Client(api_key=gemini_api_key)
 
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_experiment("winequality-linear-regression")
+
 def explicar_prediccion(
     csv_filepath: str, 
     model_filepath: str = "../notebooks/modelo_rf.pkl"
@@ -52,25 +55,35 @@ def explicar_prediccion(
         return f"Error durante la predicción con el modelo: {e}"
     
     try:
-        prompt_explicacion = (
-            f"""Eres un enólogo experto. Basado en las siguientes características de un vino blanco:
-            {datos_str_limpio} se predijo una calidad de {valor_predicho:.2f} en una escala de 0 a 10. Proporciona una explicación clara, breve y técnica de por qué este vino tiene esa calidad.
-            No inventes datos. Sé objetivo y basado en atributos comunes de calidad (equilibrio, acidez, alcohol, etc.).
-            Retorna la explicación en español.."""
-        )
+        with mlflow.start_run(nested=True):
+            mlflow.log_metric("prediccion_calidad", valor_predicho)
+            mlflow.log_text(datos_str_limpio, "input_features.txt")
+            mlflow.log_artifact(csv_filepath, "raw_data")
 
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt_explicacion,
-        )
-        explicacion = response.text
+            prompt_explicacion = (
+                f"""Eres un enólogo experto. Basado en las siguientes características de un vino blanco:
+                {datos_str_limpio} se predijo una calidad de {valor_predicho:.2f} en una escala de 0 a 10. Proporciona una explicación clara, breve y técnica de por qué este vino tiene esa calidad.
+                No inventes datos. Sé objetivo y basado en atributos comunes de calidad (equilibrio, acidez, alcohol, etc.).
+                Retorna la explicación en español.."""
+            )
 
-        if explicacion:
-            explicacion2 = explicacion.strip()
-        else:
-            explicacion2 = "Error: El modelo de IA no devolvió contenido."
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt_explicacion,
+            )
+            explicacion = response.text
 
-        return explicacion2
+            if explicacion:
+                explicacion2 = explicacion.strip()
+            else:
+                explicacion2 = "Error: El modelo de IA no devolvió contenido."
+            
+            mlflow.set_tag("genai_model", "gemini-2.5-flash")
+            mlflow.set_tag("model_filepath_used", model_filepath) 
+            mlflow.set_tag("prediction_model_type", "RandomForestRegressor")
+            mlflow.log_text(explicacion2, "genai_explanation.txt")
+
+            return explicacion2
 
     except Exception as e:
         return f"Error al generar la explicación con la IA: {e}"

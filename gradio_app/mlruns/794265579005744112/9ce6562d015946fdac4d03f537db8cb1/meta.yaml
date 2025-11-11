@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/794265579005744112/9ce6562d015946fdac4d03f537db8cb1/artifacts
+end_time: 1762892453595
+entry_point_name: ''
+experiment_id: '794265579005744112'
+lifecycle_stage: active
+run_id: 9ce6562d015946fdac4d03f537db8cb1
+run_name: dazzling-yak-389
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762892447436
+status: 4
+tags: []
+user_id: keyner

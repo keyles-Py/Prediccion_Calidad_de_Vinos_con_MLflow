@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/keyner/Desktop/Keyner/C%C3%B3digos/MLops/MLops%20final/project/mlruns/0/9d6627e3c25c426eb1f5a84bf2607d38/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d6627e3c25c426eb1f5a84bf2607d38
+run_name: bedecked-whale-763
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762893571879
+status: 1
+tags: []
+user_id: keyner

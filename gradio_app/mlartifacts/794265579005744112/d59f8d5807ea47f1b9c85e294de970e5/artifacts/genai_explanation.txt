@@ -1,0 +1,11 @@
+Este vino blanco, con una calidad de 6 (predicha en 5.91), se clasifica claramente como un vino de perfil **dulce o semi-dulce**, dada su muy alta concentración de **azúcar residual** (20.70 g/L). Su calidad se debe principalmente a un **equilibrio estructural** crucial y bien logrado para este estilo.
+
+Los factores técnicos que explican esta calidad son:
+
+1.  **Acidez y pH:** El factor más crítico es su **acidez muy elevada** (pH 3.00, acidez fija 7.00). Esta acidez es **indispensable** para contrarrestar la significativa dulzura del vino. Sin un pH tan bajo y una acidez marcada, el vino resultaría empalagoso, pesado y sin frescura. Aquí, la acidez aporta vitalidad y limpia el paladar, lo que es fundamental para un vino dulce de buena calidad.
+2.  **Alcohol:** El **bajo nivel de alcohol** (8.80%) es perfectamente coherente y deseable en un vino dulce de este perfil. Contribuye a una sensación más ligera y menos alcohólica, permitiendo que la fruta, el azúcar y la acidez se expresen sin sobrecargar el paladar.
+3.  **Equilibrio Global:** La sinergia entre la alta acidez, la significativa dulzura y el moderado alcohol crea un **equilibrio** que es la base de su calidad. Evita que el vino sea desarmónico o pesado, ofreciendo una experiencia gustativa más placentera y refrescante de lo que su alto azúcar podría sugerir inicialmente.
+4.  **Limpieza y Estabilidad:** La **acidez volátil muy baja** (0.27) indica una excelente salud microbiológica y la ausencia de defectos relacionados con la fermentación o el almacenamiento. Los niveles de **dióxido de azufre** (libre 45.00, total 170.00) son adecuados para la protección y estabilidad, especialmente importante en un vino con azúcar residual.
+5.  **Cuerpo:** La **densidad** (1.00) es alta, lo cual es consistente con su elevado contenido de azúcar residual y sugiere un cuerpo untuoso y una textura agradable en boca, típica de los vinos dulces.
+
+En resumen, la calidad de 6 refleja un vino dulce **técnicamente bien ejecutado y equilibrado**, donde la fuerte acidez es el pilar que armoniza la dulzura, haciendo que sea un vino disfrutable y limpio dentro de su estilo específico.
